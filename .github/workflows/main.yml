@@ -25,7 +25,7 @@ jobs:
         pyhton -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name:Unit Testing
+    - name: Unit Testing
       run: |
         cd ciphers_project
         python3 manage.py test
