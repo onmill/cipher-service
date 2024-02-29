@@ -1,6 +1,9 @@
 name: Run The tests, Build the image
 
 on:
+  
+  workflow_dispatch
+
   push:
     branches:
       - master
